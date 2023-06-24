@@ -17,46 +17,98 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #fff;
+  overflow: hidden;
 }
-
-/* global css */
-img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: contain;
-  object-fit: contain;
+header{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
 }
-
-a {
-  text-decoration: none;
-}
-
-li {
+nav ol{
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
   list-style: none;
 }
-
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+nav ol li{
+  padding-left: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #fff;
+  
 }
 
-.btn {
-  display: inline-block;
-  border-radius: 8px;
-  padding: 0.4rem 1.4rem;
-  margin-top: 0.5rem;
-  text-transform: capitalize;
-  font-size: 1.2rem;
-  font-weight: 500;
-  cursor: pointer;
-  /* customize */
-  background-color: #1c2042;
+.logo{
   color: white;
-  border: 2px solid #1c2042;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+  padding-left: 50px;
+  padding-right: 20px;
 }
-
+.bg{
+  max-width: 750px;
+}
+.card-conatiner-one{
+  display: flex;
+  align-items: center;
+}
+.text-container{
+  padding: 100px;
+}
+.text h1{
+  font-size: 2.5rem;
+}
+.text p{
+  font-size: 15px;
+  line-height: 1.5;
+  color: #b1b1b1;
+  font-weight: 500;
+}
+#click{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  color: black;
+}
+.font{
+  width: 125px;
+  height: 60px;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  position: absolute;
+  bottom: 35.69%;
+  right: 43%;
+}
+.arrow-font-right, .arrow-font-left{
+  opacity: 60%;
+}
+.card-container-two{
+  margin-top: -7px;
+  display: flex;
+}
+.text-container-2{
+  padding: 50px;
+}
+.text-container-2 h3{
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+.text-container-2 p{
+  font-size: 14px;
+  line-height: 2;
+  color: #b1b1b1;
+  font-weight: 500;
+}
 @media screen and (min-width: 576px) {
 }
 
