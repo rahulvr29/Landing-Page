@@ -29,6 +29,6 @@ Use this section to recap over some of your major learnings while working throug
 
 ### Links
 
-- Solution URL: 
+- Solution URL: [click here](https://github.com/rahulvr29/Landing-Page)
 
-- Live Site URL: 
+- Live Site URL: [click here](https://preeminent-sundae-5eca5d.netlify.app/)
